@@ -1,0 +1,49 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+@use "../breakpoints" as breakpoint;
+
+// =============================================================================
+// HERO
+// =============================================================================
+
+.design-system {
+  .hero {
+    @include flex-col($space-lg, center, center);
+    @include section-self-padding;
+
+    text-align: center;
+
+    .prose {
+      align-items: center;
+      max-width: $width-default;
+
+      p {
+        @include body-lg;
+
+        max-width: $width-narrow;
+        color: var(--color-text-muted);
+      }
+    }
+  }
+
+  .badge {
+    @include body-sm;
+
+    display: inline-flex;
+    gap: $space-xs;
+    align-items: center;
+
+    padding: $space-xs $space-sm;
+    border-radius: $radius-full;
+
+    font-weight: 600;
+
+    @include tint-bg;
+  }
+
+  .actions {
+    @include flex-row($space-md, center, center);
+
+    flex-wrap: wrap;
+  }
+}

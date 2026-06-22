@@ -1,0 +1,41 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+// =============================================================================
+// CTA
+// =============================================================================
+
+.design-system {
+  .cta {
+    @include flex-col($space-lg, center, center);
+
+    border: none;
+    text-align: center;
+
+    @include card(clamp($space-lg, 6vw, $space-3xl), $radius-2xl);
+    @include brand-gradient;
+    @include contrast-text-vars;
+
+    p {
+      @include body-lg;
+
+      max-width: $width-narrow;
+      opacity: 0.9;
+    }
+
+    a:not(.btn) {
+      color: var(--color-contrast-text);
+      text-decoration: underline;
+    }
+
+    .btn--secondary {
+      border-color: var(--color-contrast-text);
+      color: var(--color-contrast-text);
+
+      &:hover {
+        color: var(--color-link);
+        background: var(--color-contrast-text);
+      }
+    }
+  }
+}

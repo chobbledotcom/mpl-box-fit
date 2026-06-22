@@ -1,0 +1,33 @@
+import {
+  INTRO_CONTENT_FIELD,
+  objectList,
+  str,
+} from "#utils/block-schema/shared.js";
+
+export const type = "stats";
+
+/* jscpd:ignore-start */
+export const fields = {
+  items: {
+    ...objectList("Statistics", {
+      value: str("Value", { required: true }),
+      label: str("Label", { required: true }),
+    }),
+    required: true,
+    description:
+      'Stat objects: `{value, label}` or pipe-delimited strings `"value|label"`.',
+  },
+  /* jscpd:ignore-end */
+  intro_content: INTRO_CONTENT_FIELD,
+  reveal: {
+    type: "boolean",
+    default: "true",
+    description: "Adds `data-reveal` to each stat.",
+  },
+};
+
+export const docs = {
+  summary: "Key metrics displayed as large numbers with labels.",
+  scss: "src/css/design-system/_stats.scss",
+  htmlRoot: '<dl class="stats">',
+};
