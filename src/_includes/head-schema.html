@@ -1,0 +1,16 @@
+{%- assign schemaType = "page" -%}
+{%- if tags and tags contains "products" -%}
+  {%- assign schemaType = "product" -%}
+{%- elsif tags and tags contains "events" -%}
+  {%- assign schemaType = "event" -%}
+{%- elsif tags and tags contains "news" -%}
+  {%- assign schemaType = "post" -%}
+{%- elsif schema_type == "organization" -%}
+  {%- assign schemaType = "organization" -%}
+{%- else -%}
+  {%- assign schemaType = "website" -%}
+{%- endif -%}
+
+{%- unless no_index -%}
+  {% jsonLdScript metaComputed, schemaType, tags %}
+{%- endunless -%}

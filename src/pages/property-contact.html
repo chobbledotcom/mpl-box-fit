@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.propertiesWithContactPage
+  size: 1
+  alias: item
+permalink: "/{{ strings.property_permalink_dir }}/{{ item.fileSlug }}/contact/"
+blocks:
+  - type: property-contact
+eleventyExcludeFromCollections: true
+---

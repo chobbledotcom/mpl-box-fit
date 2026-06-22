@@ -1,0 +1,33 @@
+{%- comment -%}
+Split full-width layout with two-tone background sections.
+
+Parameters (via block object):
+  - block.variant: Color variant - "dark-left", "dark-right", "primary-left", "primary-right"
+  - block.left_content: Content for left side, with markdown headings (rendered as markdown)
+  - block.left_button: Optional button { text, href, variant }
+  - block.right_content: Content for right side, with markdown headings (rendered as markdown)
+  - block.right_button: Optional button { text, href, variant }
+  - block.reveal_left: Animation for left side (e.g., "left")
+  - block.reveal_right: Animation for right side (e.g., "right")
+{%- endcomment -%}
+
+<div class="split-full{% if block.variant %} {{ block.variant }}{% endif %}">
+  <div class="left">
+    <div class="stack"{% if block.reveal_left %} data-reveal="{{ block.reveal_left }}"{% endif %}>
+      <div class="prose">{{ block.left_content | renderContent: "md" }}</div>
+      {%- if block.left_button -%}
+        {%- assign variant = block.left_button.variant | default: "secondary" -%}
+        <a href="{{ block.left_button.href }}" class="btn btn--{{ variant }}">{{ block.left_button.text }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+  <div class="right">
+    <div class="stack"{% if block.reveal_right %} data-reveal="{{ block.reveal_right }}"{% endif %}>
+      <div class="prose">{{ block.right_content | renderContent: "md" }}</div>
+      {%- if block.right_button -%}
+        {%- assign variant = block.right_button.variant | default: "secondary" -%}
+        <a href="{{ block.right_button.href }}" class="btn btn--{{ variant }}">{{ block.right_button.text }}</a>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
