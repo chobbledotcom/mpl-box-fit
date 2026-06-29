@@ -1,0 +1,15 @@
+{
+  "chats": {
+    "!v-xHk6Sb1BbLhUGJnBZcKlz6I4M:ba_AxuVn09mCi-TlDKGfIZLQEkGSV0.local-whatsapp.localhost": {
+      "attachmentCount": 22,
+      "complete": false,
+      "cursor": "454128708608",
+      "messageCount": 40,
+      "startedAt": "2026-06-22T15:46:49.173Z",
+      "updatedAt": "2026-06-22T15:49:27.493Z"
+    }
+  },
+  "completedChatIDs": [],
+  "createdAt": "2026-06-22T15:46:49.164Z",
+  "exportVersion": 1
+}

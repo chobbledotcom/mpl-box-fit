@@ -1,0 +1,135 @@
+[
+  {
+    "accountID": "matrix",
+    "loginID": "@chobble:beeper.com",
+    "bridge": {
+      "id": "matrix",
+      "type": "matrix",
+      "provider": "cloud"
+    },
+    "network": "Beeper",
+    "user": {
+      "id": "@chobble:beeper.com",
+      "email": "kho41qpn@4wrd.cc",
+      "fullName": "Beeper User",
+      "displayText": "Beeper User",
+      "username": "chobble:beeper.com",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "facebookgo",
+    "loginID": "100055490466289",
+    "bridge": {
+      "id": "facebookgo",
+      "type": "facebookgo",
+      "provider": "cloud"
+    },
+    "network": "Facebook",
+    "user": {
+      "id": "100055490466289",
+      "imgURL": "file:///home/user/.config/BeeperTexts/media/local.beeper.com/chobble_xW0u4HWBkSWHXTBbKAJPpCEKV2TFD1T4hwSeEZNOXsz4f6nC0pm8FobphTpI53fq",
+      "fullName": "Stef Burke",
+      "displayText": "Stef Burke",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "local-instagram_ba_MzZI4HyWOLP12e7BlNah2xxz-cM",
+    "loginID": "ba_MzZI4HyWOLP12e7BlNah2xxz-cM",
+    "bridge": {
+      "id": "local-instagram",
+      "type": "instagramgo",
+      "provider": "local"
+    },
+    "network": "Instagram",
+    "user": {
+      "id": "ba_MzZI4HyWOLP12e7BlNah2xxz-cM",
+      "imgURL": "file:///home/user/.config/BeeperTexts/local-instagram/attachments/da03d38460d190d6672b40657d4d41ddacaf60c5261ab55f8ee25ea2aaf18bb1",
+      "fullName": "Stef",
+      "displayText": "Stef",
+      "username": "chobbledotcom",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "local-signal_ba_OXrOgqyl7vevIEE734puy-OT6Zw",
+    "loginID": "ba_OXrOgqyl7vevIEE734puy-OT6Zw",
+    "bridge": {
+      "id": "local-signal",
+      "type": "signal",
+      "provider": "local"
+    },
+    "network": "Signal",
+    "user": {
+      "id": "ba_OXrOgqyl7vevIEE734puy-OT6Zw",
+      "imgURL": "file:///home/user/.config/BeeperTexts/media/localhostlocal-signal/AuwFdKgW7kpbgU1DKZ1spU3sBXSoFu5KW4FNQymdbKVNIXByb2ZpbGVzL0haQ1kxbmRzdWRRcW5JZXpKclIwb1E9PQ",
+      "fullName": "Stef",
+      "phoneNumber": "+447929176527",
+      "displayText": "+44 7929 176527",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "local-whatsapp_ba_AxuVn09mCi-TlDKGfIZLQEkGSV0",
+    "loginID": "ba_AxuVn09mCi-TlDKGfIZLQEkGSV0",
+    "bridge": {
+      "id": "local-whatsapp",
+      "type": "whatsapp",
+      "provider": "local"
+    },
+    "network": "WhatsApp",
+    "user": {
+      "id": "ba_AxuVn09mCi-TlDKGfIZLQEkGSV0",
+      "imgURL": "file:///home/user/.config/BeeperTexts/media/localhostlocal-whatsapp/_gkBAAAAaC2RwkAINjExOTg5NDIJAQAAAGhKqNHP",
+      "fullName": "Chobble",
+      "phoneNumber": "+447441125952",
+      "displayText": "+44 7441 125952",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "local-whatsapp_ba_Rh6nlWSAJXBUpAHqBE9MYkMSDcs",
+    "loginID": "ba_Rh6nlWSAJXBUpAHqBE9MYkMSDcs",
+    "bridge": {
+      "id": "local-whatsapp",
+      "type": "whatsapp",
+      "provider": "local"
+    },
+    "network": "WhatsApp",
+    "user": {
+      "id": "ba_Rh6nlWSAJXBUpAHqBE9MYkMSDcs",
+      "imgURL": "file:///home/user/.config/BeeperTexts/media/localhostlocal-whatsapp/_gkBAAAAaEqo0c8KMTA0MjQ1NTM0OQkBAAAAaEqo0c8",
+      "fullName": "Stef",
+      "phoneNumber": "+447929176527",
+      "displayText": "+44 7929 176527",
+      "isSelf": true
+    },
+    "status": "connected"
+  },
+  {
+    "accountID": "slackgo.T04965NPMML-U0ASK0BNVC2",
+    "loginID": "T04965NPMML-U0ASK0BNVC2",
+    "bridge": {
+      "id": "slackgo",
+      "type": "slackgo",
+      "provider": "cloud"
+    },
+    "network": "Slack",
+    "user": {
+      "id": "T04965NPMML-U0ASK0BNVC2",
+      "imgURL": "file:///home/user/.config/BeeperTexts/media/local.beeper.com/chobble_vL8q4FNZEnF2VDR2Z3Be17aERfORIqsZf9kZrEowUF4vRC9Qm1u0Rng0EJ7msfjh",
+      "email": "sburke@codeforamerica.org",
+      "fullName": "sburke",
+      "displayText": "Code for America Staff - sburke@codeforamerica.org",
+      "isSelf": true
+    },
+    "status": "reconnect_required",
+    "statusText": "Invalid credentials, please log in again"
+  }
+]

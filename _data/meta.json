@@ -1,0 +1,29 @@
+{
+	"language": "en-GB",
+	"organization": {
+		"description": "*Boxing-fitness gym offering boxing and strength & conditioning training for adults and juniors.*",
+		"legalName": "*MPL Box Fit Ltd*",
+		"foundingDate": "*2020*",
+		"founders": [
+			{
+				"name": "*Owner name*"
+			}
+		],
+		"address": {
+			"streetAddress": "*123 Example Street*",
+			"addressLocality": "*Town*",
+			"addressRegion": "*County*",
+			"postalCode": "*AB1 2CD*",
+			"addressCountry": "GB"
+		},
+		"contactPoint": [
+			{
+				"telephone": "*+44-1XXX-XXXXXX*",
+				"email": "*hello@mplboxfit.co.uk*",
+				"contactType": "customer service",
+				"areaServed": "GB",
+				"availableLanguage": ["English"]
+			}
+		]
+	}
+}
