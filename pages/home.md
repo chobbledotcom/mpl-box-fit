@@ -15,6 +15,7 @@ blocks:
     image: /images/gym-corridor-wide.jpg
     image_alt: Row of TUF-WEAR punch bags down the MPL Box Fit training floor under hexagonal lighting
     parallax: true
+    tint: true
     content: |
       # MPL Box Fit
 

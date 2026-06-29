@@ -12,6 +12,7 @@ blocks:
     image: /images/tuf-wear-bag-closeup.jpg
     image_alt: A blue and gold TUF-WEAR heavy bag at MPL Box Fit
     parallax: true
+    tint: true
     content: |
       # Boxfit Classes
 

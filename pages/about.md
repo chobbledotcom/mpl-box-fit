@@ -15,6 +15,7 @@ blocks:
     image: /images/tuf-wear-bags-and-water.jpg
     image_alt: Blue and gold TUF-WEAR heavy bags hanging along the MPL Box Fit training corridor
     parallax: true
+    tint: true
     content: |
       # About MPL Box Fit
 
