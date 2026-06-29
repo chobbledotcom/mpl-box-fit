@@ -1,8 +1,8 @@
 {
 	"show_breadcrumbs": true,
 	"placeholder_images": false,
-	"formspark_id": "*your-formspark-id*",
-	"botpoison_public_key": "*your-botpoison-public-key*",
+	"formspark_id": "HHwHwtJ3v",
+	"botpoison_public_key": "pk_bbb182a9-1ff3-4d9a-839c-06e45f41a6e6",
 	"currency": "GBP",
 	"collapse_mobile_menu": true,
 	"use_visual_editor": true
