@@ -1,6 +1,7 @@
 ---
 header_text: Thank You
 name: Thank You
+title: Thank You
 meta_description:
 meta_title: Thank You
 navigationParent: Contact

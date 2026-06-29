@@ -1,10 +1,10 @@
 ---
 title: Reviews
 name: Reviews
-meta_title: Reviews | MPL Box Fit *Boxing Gym in Town*
+meta_title: Reviews | MPL Box Fit Boxing Gym in Haslingden
 meta_description: >-
   *What members say about training at MPL Box Fit - boxfit classes, junior
-  boxing, strength and conditioning and 1-to-1 coaching in Town.*
+  boxing, strength and conditioning and 1-to-1 coaching in Haslingden.*
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews

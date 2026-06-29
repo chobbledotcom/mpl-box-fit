@@ -140,9 +140,8 @@ result-*
 
 # ---> Eleventy
 # Built site
-_site
-# Merged template + content build workspace
 .build
+_site
 .profile
 .sass-cache
 .image-cache/*.jpeg
@@ -163,3 +162,4 @@ src/assets/icons/iconify/test/
 
 # Chobble template checked out here in CI (file: dependency target)
 chobble-template/
+dataset_*
