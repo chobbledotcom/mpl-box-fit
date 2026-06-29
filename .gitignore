@@ -160,3 +160,6 @@ src/assets/icons/iconify/test/
 
 .claude
 .codex
+
+# Chobble template checked out here in CI (file: dependency target)
+chobble-template/
