@@ -14,6 +14,7 @@ blocks:
     image: /images/gym-corridor-training-session.jpg
     image_alt: Training session underway on the MPL Box Fit floor
     parallax: true
+    tint: true
     content: |
       # Contact Us
 
@@ -49,9 +50,12 @@ blocks:
       ## Find Us Online
     items:
       - icon: "hugeicons:facebook-01"
-        text: "*Follow us on Facebook*"
-        url: "*https://www.facebook.com/mplboxfit*"
+        text: "Follow us on Facebook"
+        url: "https://www.facebook.com/profile.php?id=61576716490057"
       - icon: "hugeicons:instagram"
-        text: "*Follow us on Instagram*"
-        url: "*https://www.instagram.com/mplboxfit*"
+        text: "Follow @mpl.boxfit on Instagram"
+        url: "https://www.instagram.com/mpl.boxfit"
+      - icon: "hugeicons:linkedin-01"
+        text: "Connect with Coach Umair on LinkedIn"
+        url: "https://www.linkedin.com/in/umair-khan-pm"
 ---

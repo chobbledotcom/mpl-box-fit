@@ -12,6 +12,7 @@ blocks:
     image: /images/facebook-first-new-studio-session.jpg
     image_alt: A 1-to-1 boxing client with coach Umair at the new MPL Box Fit studio
     parallax: true
+    tint: true
     content: |
       # 1-to-1 Coaching
 

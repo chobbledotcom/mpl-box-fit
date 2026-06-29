@@ -3,8 +3,8 @@ title: Classes
 name: Classes
 meta_title: Classes & Training at MPL Box Fit | Haslingden
 meta_description: >-
-  *Boxfit classes, junior boxing, strength and conditioning, and 1-to-1
-  coaching at MPL Box Fit in Haslingden. All ages and abilities welcome.*
+  Boxfit classes, junior boxing, strength and conditioning, and 1-to-1
+  coaching at MPL Box Fit in Haslingden. All ages and abilities welcome.
 permalink: /classes/
 eleventyNavigation:
   key: Classes
@@ -14,6 +14,7 @@ blocks:
     image: /images/facebook-hq-boxing-session.jpg
     image_alt: Three people on the MPL Box Fit training floor in Haslingden
     parallax: true
+    tint: true
     content: |
       # Classes & Training
 
@@ -58,10 +59,9 @@ blocks:
     content: |
       ## Not Sure Which to Pick?
 
-      *Send us a message with a bit about yourself and what you are after,
-      and we will tell you where to start.* If you would rather talk it
-      through, send us a message and we will point you at the best starting
-      point.
+      Send us a message with a bit about yourself and what you are after,
+      and we will tell you where to start. Beginner, returning or experienced,
+      there is a session that will suit you.
     button:
       text: Get in Touch
       href: /contact/

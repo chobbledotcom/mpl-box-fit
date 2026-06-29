@@ -3,8 +3,8 @@ title: Reviews
 name: Reviews
 meta_title: Reviews | MPL Box Fit Boxing Gym in Haslingden
 meta_description: >-
-  *What members say about training at MPL Box Fit - boxfit classes, junior
-  boxing, strength and conditioning and 1-to-1 coaching in Haslingden.*
+  What members say about training at MPL Box Fit - boxfit classes, junior
+  boxing, strength and conditioning and 1-to-1 coaching in Haslingden.
 permalink: /reviews/
 eleventyNavigation:
   key: Reviews
@@ -14,11 +14,13 @@ blocks:
     image: /images/functional-trainer-daylight.jpg
     image_alt: The MPL Box Fit training floor lit by daylight from the doorway
     parallax: true
+    tint: true
     content: |
       # What Our Members Say
 
-      *Reviews from people who train at MPL Box Fit. Swap these for real ones
-      as they come in - pull them straight off your Google or Facebook page.*
+      From first-timers to long-term clients, here is what people make of
+      training at MPL Box Fit. *Reviews shown here are placeholders until real
+      ones are added.*
 
   - type: section-header
     intro: |-
@@ -32,9 +34,10 @@ blocks:
     content: |
       ## Trained With Us?
 
-      *If you train here, we would appreciate a quick review on* *[Google or
-      Facebook]* *- it helps other people find the gym.* If you are not a
-      member yet, come down and see what it is like.
+      If you train here, a quick review on
+      [Facebook](https://www.facebook.com/profile.php?id=61576716490057)
+      helps other people find the gym. If you are not a member yet, come down
+      and see what it is like.
     button:
       text: Get in Touch
       href: /contact/
