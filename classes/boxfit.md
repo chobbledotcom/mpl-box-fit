@@ -30,13 +30,26 @@ blocks:
       tired.
 
       You do not need any boxing experience to start, and you do not need
-      your own gloves for your first go. The posts mention evening fitness
-      classes, including a 7pm class. *Confirm the current timetable and
-      prices when booking.*
+      your own gloves for your first go.
+
+      ## Class Times & Prices
+
+      Sessions are **£10 each**, pay as you go — there is no membership to
+      commit to. Kids are welcome to play for free in the Monkey Playland
+      soft play centre while you train, so you can get your session in
+      without sorting childcare.
+
+      - **Ladies, mornings:** Monday & Friday, 10–11am
+      - **Ladies, evenings:** Monday & Wednesday, 6–7pm
+      - **Men:** Tuesday & Thursday, 7–8pm
+
+      The ladies' classes are ladies only. Prefer something more personal?
+      Private 1-to-1 and small-group boxing sessions are available for both
+      men and ladies — email us to arrange one.
   - type: contact-form
     intro_content: |
       ## Get Started
     content: |
-      *Tell us roughly how fit you are and whether you have boxed before,
-      and we will point you at a class to start with.*
+      Tell us roughly how fit you are and whether you have boxed before,
+      and we will point you at a class to start with.
 ---

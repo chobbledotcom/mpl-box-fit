@@ -1,5 +1,5 @@
 ---
-name: "*Reviewer name (parent)*"
+name: "Parent"
 rating: 5
 ---
 

@@ -26,9 +26,9 @@ blocks:
 
   - type: stats
     items:
-      - "*All ages*|Adults & Juniors Welcome"
-      - "*Boxfit*|Classes & 1-to-1 Training"
-      - "*Fully kitted*|Bags, Weights & Conditioning"
+      - "£10|Per Class, Pay As You Go"
+      - "Boxfit|Classes & 1-to-1 Training"
+      - "Fully Kitted|Bags, Weights & Conditioning"
       - "Haslingden|Rossendale, Lancashire"
 
   - type: split-image
@@ -67,10 +67,10 @@ blocks:
           The functional trainer, hex dumbbells, kettlebells, weighted power
           bags and plates cover a full strength and conditioning session.
       - icon: "mdi:account-child"
-        name: Juniors Welcome
+        name: Kids Play Free
         description: >-
-          We run junior boxing and family-friendly sessions that build
-          fitness, footwork and confidence in a structured way.
+          While you train, the kids can play for free in the Monkey Playland
+          soft play centre — get your session in without sorting childcare.
       - icon: "mdi:account-group"
         name: All Abilities
         description: >-
