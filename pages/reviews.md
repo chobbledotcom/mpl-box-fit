@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 4
 blocks:
   - type: image-background
-    image: /images/functional-trainer-daylight.jpg
+    image: /images/functional-trainer-daylight-new.jpg
     image_alt: The MPL Box Fit training floor lit by daylight from the doorway
     parallax: true
     tint: true
