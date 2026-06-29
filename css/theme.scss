@@ -1,2 +1,77 @@
 @charset "utf-8";
 @use "sass:color";
+
+// =============================================================================
+// MPL BOX FIT — CLIENT THEME
+// =============================================================================
+// Loaded last in the design-system bundle, so everything here overrides the
+// template defaults. The brand is red / white / black, high-contrast, with the
+// dark, hexagonal-lit feel of the gym itself. Headings use Orbitron (a
+// geometric display face already self-hosted by the template) for punch.
+// =============================================================================
+
+:root {
+  // --- Brand palette -------------------------------------------------------
+  // Boxing red taken from the MPL crest, paired with near-black ink and clean
+  // white surfaces.
+  --color-link: #d81e2c; // primary / buttons / links
+  --color-link-hover: #a8141f; // darker red on hover
+  --color-secondary: #16181d; // near-black accent
+  --color-accent: #f1f2f4; // soft grey for subtle fills
+  --color-tint: #fde7e9; // pale red wash (badges, tints)
+
+  // --- Surfaces & text -----------------------------------------------------
+  --color-bg: #ffffff;
+  --body-background: #ffffff;
+  --body-background-alt: #f5f6f8; // alternate (even) section bands
+  --color-card-bg: #ffffff;
+  --color-text: #16181d; // crisp near-black body text
+  --color-text-muted: #5b616e;
+  --color-hover-bg: rgb(216 30 44 / 6%); // faint red hover wash
+
+  // Dark sections (image overlays, CTAs) lean to black brick, not slate grey.
+  --color-dark-bg: #111317;
+  --color-dark-bg-alt: #0a0b0d;
+
+  // Image-overlay tint nudged red/black so heroes feel on-brand.
+  --color-gradient-start: rgb(216 30 44 / 28%);
+  --color-gradient-end: rgb(10 11 13 / 55%);
+
+  // --- Typography ----------------------------------------------------------
+  // Orbitron for display headings; system sans stays for readable body copy.
+  --font-family-heading: "Orbitron", var(--font-family-body);
+
+  // --- Shape ---------------------------------------------------------------
+  // Slightly sharper corners read tougher than the rounded default.
+  --border-radius: 5px;
+  --list-marker-content: "› ";
+  --list-marker-color: var(--color-link);
+}
+
+// -----------------------------------------------------------------------------
+// Heading treatment — uppercase, tracked-out display type for impact.
+// Scoped to .design-system at the same/greater specificity as the base rules.
+// -----------------------------------------------------------------------------
+.design-system {
+  h1,
+  h2,
+  h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  // Buttons: confident weight + a touch more tracking to match the headings.
+  .button,
+  button,
+  [type="submit"] {
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  // Stats numbers carry the display face so the headline figures pop.
+  .stats,
+  [class*="stat"] {
+    --font-family-body: var(--font-family-heading);
+  }
+}
