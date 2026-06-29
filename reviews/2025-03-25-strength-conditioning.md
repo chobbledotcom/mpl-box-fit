@@ -1,5 +1,5 @@
 ---
-name: "*Reviewer name (S&C)*"
+name: "S&C member"
 rating: 5
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "*Reviewer name (adult beginner)*"
+name: "Adult beginner"
 rating: 5
 ---
 

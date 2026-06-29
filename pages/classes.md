@@ -41,19 +41,28 @@ blocks:
         answer: >-
           Not for your first session — we will sort you out and explain what
           to bring next time. Wear something you can move and sweat in.
-      - question: Can children train here?
+      - question: What about the kids while I train?
         answer: >-
-          Yes. We run coached junior boxing sessions that build fitness,
-          footwork and confidence, supervised from start to finish. *Junior
-          sessions are for ages [age range].*
+          Bring them along — children are welcome to play for free in the
+          Monkey Playland soft play centre while you train, so you can get
+          your session in without sorting childcare. We can also arrange
+          coached junior boxing on request; just ask when you get in touch.
       - question: How much does it cost?
         answer: >-
-          *Pricing depends on the session and whether you pay per class or
-          buy a block — get in touch and we will give you the current rates.*
+          Keep-fit classes are £10 per session, pay as you go — there is no
+          membership to commit to. Kids play in the soft play for free while
+          you train.
       - question: When do classes run?
-        answer: >-
-          *Class days and times are [days and times]. Message us and we will
-          point you at the next session that suits.*
+        answer: |-
+          Our weekly keep-fit classes are:
+
+          - **Ladies, mornings:** Monday & Friday, 10–11am
+          - **Ladies, evenings:** Monday & Wednesday, 6–7pm
+          - **Men:** Tuesday & Thursday, 7–8pm
+
+          The ladies' classes are ladies only. Private 1-to-1 and small-group
+          boxing sessions are available for both men and ladies — email us to
+          arrange one.
 
   - type: cta
     content: |

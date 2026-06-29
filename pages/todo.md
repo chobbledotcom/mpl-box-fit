@@ -26,19 +26,24 @@ blocks:
       - **Website domain** — `https://www.mplboxfit.co.uk` assumed in
         `_data/site.json`; confirm it is registered and live.
 
+      Class times and pricing are now confirmed (keep-fit £10/session;
+      ladies Mon & Fri 10–11am and Mon & Wed 6–7pm; men Tue & Thu 7–8pm;
+      private 1-to-1 and group sessions by email). Still outstanding:
+
       ### Opening hours & schedule
 
-      - **Opening hours** — the times in `_data/site.json` (`opening_times`)
-        are placeholders in italics; confirm real staffed hours.
-      - **Class timetable** — days and times for boxfit, junior boxing,
-        strength & conditioning and 1-to-1 slots (`pages/classes.md` FAQs and
-        the individual class pages).
+      - **General opening hours** — the `opening_times` in `_data/site.json`
+        are still placeholders; confirm staffed hours beyond the class slots
+        (e.g. for private / 1-to-1 bookings).
+      - **Strength & conditioning times** — confirm whether S&C runs as its
+        own slot or only inside boxing / 1-to-1 sessions.
 
-      ### Pricing & membership
+      ### Membership & juniors
 
-      - **Prices** — per-session vs block vs membership rates.
-      - **Junior age range** — `*ages [age range]*` in `pages/classes.md`.
-      - **Kit requirements** for juniors and beginners.
+      - **Block / membership pricing** — is it only £10 pay-as-you-go, or are
+        there blocks / memberships too?
+      - **Junior boxing** — if coached junior sessions become a fixed class,
+        confirm days, times, age range and kit (`classes/junior-boxing.md`).
 
       ### Business details
 
