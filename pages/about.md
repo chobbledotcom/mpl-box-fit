@@ -15,6 +15,7 @@ blocks:
     image: /images/tuf-wear-bags-and-water.jpg
     image_alt: Blue and gold TUF-WEAR heavy bags hanging along the MPL Box Fit training corridor
     parallax: true
+    tint: true
     content: |
       # About MPL Box Fit
 
@@ -25,8 +26,8 @@ blocks:
   - type: stats
     items:
       - "2026|Studio Build Started"
-      - "*All ages*|Adults & Juniors"
-      - "*All abilities*|Beginners to Boxers"
+      - "Ladies & Men|Dedicated Class Times"
+      - "All Abilities|Beginners to Boxers"
       - "Haslingden|Rossendale, Lancashire"
 
   - type: split-image

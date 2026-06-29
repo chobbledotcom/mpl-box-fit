@@ -5,41 +5,61 @@
 // MPL BOX FIT — CLIENT THEME
 // =============================================================================
 // Loaded last in the design-system bundle, so everything here overrides the
-// template defaults. The brand is red / white / black, high-contrast, with the
-// dark, hexagonal-lit feel of the gym itself. Headings use Orbitron (a
-// geometric display face already self-hosted by the template) for punch.
+// template defaults. Dark, gym-floor aesthetic (à la Tiger Muay Thai): black
+// and near-black surfaces, white body copy, red headings and accents. Display
+// headings and the nav use Bangers (a punchy, hand-drawn comic face) for a
+// fight-poster feel; body copy stays on the system sans for readability.
 // =============================================================================
+
+// -----------------------------------------------------------------------------
+// Bangers — self-hosted locally from fonts.bunny.net (latin subset).
+// Files live in /assets/fonts.
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: "Bangers";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("/assets/fonts/bangers-latin-400-normal.woff2") format("woff2"),
+    url("/assets/fonts/bangers-latin-400-normal.woff") format("woff");
+}
 
 :root {
   // --- Brand palette -------------------------------------------------------
-  // Boxing red taken from the MPL crest, paired with near-black ink and clean
-  // white surfaces.
-  --color-link: #d81e2c; // primary / buttons / links
-  --color-link-hover: #a8141f; // darker red on hover
-  --color-secondary: #16181d; // near-black accent
-  --color-accent: #f1f2f4; // soft grey for subtle fills
-  --color-tint: #fde7e9; // pale red wash (badges, tints)
+  // Boxing red from the MPL crest, on black / near-black surfaces with crisp
+  // white text.
+  --color-link: #e02230; // primary / buttons / links (lifted for dark bg)
+  --color-link-hover: #ff3a47; // brighter red on hover
+  --color-secondary: #24272e; // charcoal accent (secondary buttons, chips)
+  --color-accent: #14161a; // subtle elevated fill
+  --color-tint: #2a1417; // deep red wash (badges, tints)
 
   // --- Surfaces & text -----------------------------------------------------
-  --color-bg: #ffffff;
-  --body-background: #ffffff;
-  --body-background-alt: #f5f6f8; // alternate (even) section bands
-  --color-card-bg: #ffffff;
-  --color-text: #16181d; // crisp near-black body text
-  --color-text-muted: #5b616e;
-  --color-hover-bg: rgb(216 30 44 / 6%); // faint red hover wash
+  // Dark theme: near-black main band, black alternate band.
+  --color-bg: #0b0c0e;
+  --body-background: #0b0c0e; // near-black main sections
+  --body-background-alt: #000000; // black alternate (even) bands
+  --color-card-bg: #14161a; // slightly elevated card surface
+  --color-text: #f4f5f7; // white body text
+  --color-text-muted: #9aa1ad; // muted grey
+  --color-hover-bg: rgb(224 34 48 / 12%); // faint red hover wash
 
-  // Dark sections (image overlays, CTAs) lean to black brick, not slate grey.
-  --color-dark-bg: #111317;
-  --color-dark-bg-alt: #0a0b0d;
+  // Dark sections (image overlays, CTAs) stay black brick.
+  --color-dark-bg: #0b0c0e;
+  --color-dark-bg-alt: #000000;
 
-  // Image-overlay tint nudged red/black so heroes feel on-brand.
-  --color-gradient-start: rgb(216 30 44 / 28%);
-  --color-gradient-end: rgb(10 11 13 / 55%);
+  // Image-overlay tint: heavier black so white/red text holds over photos.
+  --color-gradient-start: rgb(224 34 48 / 30%);
+  --color-gradient-end: rgb(0 0 0 / 78%);
 
   // --- Typography ----------------------------------------------------------
-  // Orbitron for display headings; system sans stays for readable body copy.
-  --font-family-heading: "Orbitron", var(--font-family-body);
+  // Bangers for display headings + nav; system sans stays for readable copy.
+  --font-family-heading: "Bangers", "Orbitron", var(--font-family-body);
+
+  // Shared red + easing, reused by accents / underlines / transitions.
+  --mpl-red: #e02230;
+  --mpl-ease: cubic-bezier(0.22, 1, 0.36, 1);
 
   // --- Shape ---------------------------------------------------------------
   // Slightly sharper corners read tougher than the rounded default.
@@ -48,39 +68,238 @@
   --list-marker-color: var(--color-link);
 
   // Link decoration variables required by the shared design system.
-  --link-decoration: underline;
-  --link-decoration-hover: underline;
+  --link-decoration: none;
+  --link-decoration-hover: none;
   --link-decoration-style: solid;
 }
 
 // -----------------------------------------------------------------------------
-// Heading treatment — uppercase, tracked-out display type for impact.
+// Keyframes
+// -----------------------------------------------------------------------------
+@keyframes mpl-shine {
+  from {
+    transform: translateX(-120%) skewX(-18deg);
+  }
+
+  to {
+    transform: translateX(220%) skewX(-18deg);
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Heading treatment — Bangers display type, loud and slightly bevelled.
 // Scoped to .design-system at the same/greater specificity as the base rules.
 // -----------------------------------------------------------------------------
 .design-system {
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
+    color: var(--mpl-red);
+    font-family: var(--font-family-heading);
+    font-weight: 400;
+    line-height: 1.04;
+    letter-spacing: 0.015em;
     text-transform: uppercase;
-    letter-spacing: 0.02em;
   }
 
-  // Buttons: confident weight + a touch more tracking to match the headings.
+  // Bangers is heavy, so dial the scale up a touch for impact.
+  h1 {
+    font-size: clamp(2.6rem, 6vw, 4.75rem);
+    // Hard black drop keeps the red readable over photos and dark bands.
+    text-shadow: 2px 3px 0 rgb(0 0 0 / 55%);
+  }
+
+  // Shrink-wrap so the accent bar below can match the text width. Aligns and
+  // wraps with whatever the parent sets (left, centred, etc.).
+  h2 {
+    display: inline-block;
+    font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  }
+
+  h3 {
+    font-size: clamp(1.45rem, 2.4vw, 1.9rem);
+  }
+
+  // Section-level headings (h2) get an accent bar the width of the text.
+  // currentColor so it follows the heading (red on dark, white on the red
+  // CTA / callout blocks).
+  h2::after {
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 0.5rem;
+    background: currentColor;
+    border-radius: 2px;
+    content: "";
+  }
+
+  // On the red brand-gradient blocks (CTA, split-callout) headings would be
+  // red-on-red — use the block's contrast text colour (white) instead.
+  .cta :is(h1, h2, h3, h4),
+  .split-callout :is(h1, h2, h3, h4) {
+    color: var(--color-contrast-text);
+  }
+
+  // --- Buttons -------------------------------------------------------------
+  // Confident red, with a diagonal shine sweep + lift on hover.
   .button,
   button,
   [type="submit"] {
+    position: relative;
+    overflow: hidden;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    border: 1px solid rgb(255 255 255 / 14%);
+    transition:
+      transform 0.18s var(--mpl-ease),
+      box-shadow 0.18s var(--mpl-ease),
+      filter 0.18s var(--mpl-ease);
   }
 
-  // Stats numbers carry the display face so the headline figures pop.
+  .button::after,
+  button::after,
+  [type="submit"]::after {
+    position: absolute;
+    inset: 0;
+    width: 35%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgb(255 255 255 / 45%),
+      transparent
+    );
+    transform: translateX(-120%) skewX(-18deg);
+    pointer-events: none;
+    content: "";
+  }
+
+  .button:hover,
+  button:hover,
+  [type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 22px -8px var(--mpl-red);
+    filter: saturate(1.15);
+  }
+
+  .button:hover::after,
+  button:hover::after,
+  [type="submit"]:hover::after {
+    animation: mpl-shine 0.7s var(--mpl-ease);
+  }
+
+  // --- Stats ---------------------------------------------------------------
+  // Headline figures carry the display face so they punch.
   .stats,
   [class*="stat"] {
     --font-family-body: var(--font-family-heading);
   }
+
+  // --- Content links -------------------------------------------------------
+  // Red, with an animated underline that wipes in from the left.
+  p a,
+  li a {
+    background-image: linear-gradient(var(--mpl-red), var(--mpl-red));
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 2px;
+    color: var(--color-link);
+    transition:
+      background-size 0.25s var(--mpl-ease),
+      color 0.15s ease;
+  }
+
+  p a:hover,
+  li a:hover {
+    background-size: 100% 2px;
+    color: var(--color-link-hover);
+  }
+
+  // --- Cards & figures -----------------------------------------------------
+  // Static, no hover motion or image zoom — definition comes from the dark
+  // elevated surface and a hairline border, like a gym-floor signboard.
+  [class*="card"],
+  [class*="feature"] {
+    border: 1px solid rgb(255 255 255 / 8%);
+  }
+
+  // A thin red top-edge on feature/image cards reads as an accent without
+  // moving anything on hover.
+  [class*="card"] {
+    border-top: 2px solid var(--mpl-red);
+  }
+
+  // Feature icons stay red and still — the accent, not a gimmick.
+  [class*="feature"] svg,
+  [class*="feature"] [class*="icon"] {
+    color: var(--mpl-red);
+  }
 }
 
+// -----------------------------------------------------------------------------
+// Navigation — Bangers, with a red underline bar that grows on hover/active.
+// -----------------------------------------------------------------------------
+.design-system nav a {
+  position: relative;
+  font-family: var(--font-family-heading);
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: color 0.15s ease;
+}
+
+.design-system nav a::after {
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--mpl-red);
+  border-radius: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.25s var(--mpl-ease);
+  content: "";
+}
+
+.design-system nav a:hover,
+.design-system nav a[aria-current],
+.design-system nav a.active {
+  color: var(--mpl-red);
+}
+
+.design-system nav a:hover::after,
+.design-system nav a[aria-current]::after,
+.design-system nav a.active::after {
+  transform: scaleX(1);
+}
+
+// -----------------------------------------------------------------------------
+// Header logo watermark — overlay the crest on every image-background hero at
+// low opacity. Hosted on the image wrapper (.image-background > div), whose
+// pseudo-elements are free; the container's own ::after is the aspect-ratio
+// spacer and .tinted::before is the tint. Sits at z-index 1: above the photo
+// but below the tint gradient (z-index 2) and the overlay content (z-index 3),
+// so the tint is left completely intact.
+// -----------------------------------------------------------------------------
+.design-system .image-background > div::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background-image: url("/images/mpl-boxfit-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: min(52%, 440px);
+  opacity: 0.3;
+  pointer-events: none;
+  content: "";
+}
+
+// =============================================================================
+// FOOTER
+// =============================================================================
 .design-system footer {
   border-top: 1px solid rgb(229 35 43 / 55%);
   background:
@@ -116,7 +335,6 @@
     width: 108px;
     height: auto;
     margin-bottom: 0.75rem;
-    border-radius: 6px;
   }
 
   .footer-heading {
@@ -152,5 +370,20 @@
     color: var(--color-text-muted);
     font-size: 0.9rem;
     text-align: center;
+  }
+}
+
+// -----------------------------------------------------------------------------
+// Reduced motion — honour the user's preference and drop the animations.
+// -----------------------------------------------------------------------------
+@media (prefers-reduced-motion: reduce) {
+  .design-system {
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
   }
 }

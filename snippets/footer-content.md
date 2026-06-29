@@ -4,7 +4,7 @@ name: Footer Content
 
 <div class="footer-grid">
   <div class="footer-brand">
-    <img src="/images/mpl-boxfit-logo.jpg" alt="MPL Box Fit" class="footer-logo" />
+    <img src="/images/mpl-boxfit-logo.png" alt="MPL Box Fit" class="footer-logo" />
     <p>
       Boxing fitness inside Monkey Playland in Haslingden. Learn proper
       fundamentals, build confidence and train harder through coached
@@ -28,6 +28,7 @@ name: Footer Content
       <li>Serving Rossendale and Lancashire</li>
       <li><a href="https://www.instagram.com/mpl.boxfit">Follow @mpl.boxfit</a></li>
       <li><a href="https://www.facebook.com/profile.php?id=61576716490057">Find us on Facebook</a></li>
+      <li><a href="https://www.linkedin.com/in/umair-khan-pm">Coach Umair on LinkedIn</a></li>
       <li><a href="/contact/">Message us about training</a></li>
     </ul>
   </div>
