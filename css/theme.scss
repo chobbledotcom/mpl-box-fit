@@ -110,7 +110,10 @@
     text-shadow: 2px 3px 0 rgb(0 0 0 / 55%);
   }
 
+  // Shrink-wrap so the accent bar below can match the text width. Aligns and
+  // wraps with whatever the parent sets (left, centred, etc.).
   h2 {
+    display: inline-block;
     font-size: clamp(1.9rem, 3.6vw, 2.9rem);
   }
 
@@ -118,22 +121,15 @@
     font-size: clamp(1.45rem, 2.4vw, 1.9rem);
   }
 
-  // Section-level headings (h2) get a short red accent bar underneath.
+  // Section-level headings (h2) get a red accent bar the width of the text.
   h2::after {
     display: block;
-    width: 2.5rem;
+    width: 100%;
     height: 4px;
     margin-top: 0.5rem;
-    background: linear-gradient(90deg, var(--mpl-red), transparent);
+    background: var(--mpl-red);
     border-radius: 2px;
     content: "";
-  }
-
-  // Centred section headers should centre their accent bar too.
-  [class*="section-header"] h2::after,
-  [class*="intro"] h2::after {
-    margin-right: auto;
-    margin-left: auto;
   }
 
   // --- Buttons -------------------------------------------------------------
