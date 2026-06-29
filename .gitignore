@@ -141,6 +141,8 @@ result-*
 # ---> Eleventy
 # Built site
 _site
+# Merged template + content build workspace
+.build
 .profile
 .sass-cache
 .image-cache/*.jpeg

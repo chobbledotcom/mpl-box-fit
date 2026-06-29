@@ -25,6 +25,33 @@ blocks:
     image_aspect_ratio: 4/3
     collection: classes
 
+  - type: faqs
+    intro_content: |
+      ## Common Questions
+    items:
+      - question: Do I need any boxing experience to start?
+        answer: >-
+          No. Sessions are scaled to whoever is in the room, so a complete
+          beginner and a regular can train in the same class and both get a
+          proper workout. Just tell us your level when you get in touch.
+      - question: Do I need my own gloves or kit?
+        answer: >-
+          Not for your first session — we will sort you out and explain what
+          to bring next time. Wear something you can move and sweat in.
+      - question: Can children train here?
+        answer: >-
+          Yes. We run coached junior boxing sessions that build fitness,
+          footwork and confidence, supervised from start to finish. *Junior
+          sessions are for ages [age range].*
+      - question: How much does it cost?
+        answer: >-
+          *Pricing depends on the session and whether you pay per class or
+          buy a block — get in touch and we will give you the current rates.*
+      - question: When do classes run?
+        answer: >-
+          *Class days and times are [days and times]. Message us and we will
+          point you at the next session that suits.*
+
   - type: cta
     content: |
       ## Not Sure Which to Pick?
