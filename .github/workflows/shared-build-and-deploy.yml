@@ -6,7 +6,7 @@ on:
       runs-on:
         description: 'Runner label'
         type: string
-        default: 'ubicloud-standard-8'
+        default: 'ubicloud-standard-16'
       deploy-only-on-main:
         description: 'Only deploy on main branch (no staging)'
         type: boolean
@@ -152,8 +152,8 @@ jobs:
         with:
           sitemap-location: "${{ steps.site-url.outputs.url }}/sitemap.xml"
           key: ${{ secrets.INDEXNOW_KEY }}
-          since: 10
-          since-unit: minute
+          since: 1
+          since-unit: day
 
   notify-failure:
     name: Notify on Failure
