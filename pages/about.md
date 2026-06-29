@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 2
 blocks:
   - type: image-background
-    image: /images/tuf-wear-bags-and-water.jpg
+    image: /images/tuf-wear-bags-and-water-new.jpg
     image_alt: Blue and gold TUF-WEAR heavy bags hanging along the MPL Box Fit training corridor
     parallax: true
     tint: true

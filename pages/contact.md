@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 5
 blocks:
   - type: image-background
-    image: /images/gym-corridor-training-session.jpg
+    image: /images/hex-dumbbell-rack-new.jpg
     image_alt: Training session underway on the MPL Box Fit floor
     parallax: true
     tint: true
