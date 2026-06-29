@@ -267,6 +267,27 @@
   transform: scaleX(1);
 }
 
+// -----------------------------------------------------------------------------
+// Header logo watermark — overlay the crest on every image-background hero at
+// low opacity. Hosted on the image wrapper (.image-background > div), whose
+// pseudo-elements are free; the container's own ::after is the aspect-ratio
+// spacer and .tinted::before is the tint. Sits at z-index 1: above the photo
+// but below the tint gradient (z-index 2) and the overlay content (z-index 3),
+// so the tint is left completely intact.
+// -----------------------------------------------------------------------------
+.design-system .image-background > div::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background-image: url("/images/mpl-boxfit-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: min(42%, 340px);
+  opacity: 0.12;
+  pointer-events: none;
+  content: "";
+}
+
 // =============================================================================
 // FOOTER
 // =============================================================================
