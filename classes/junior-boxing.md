@@ -13,6 +13,7 @@ blocks:
     image: /images/facebook-father-son-session.jpg
     image_alt: Father and son after a boxing session at MPL Box Fit in Haslingden
     parallax: true
+    tint: true
     content: |
       # Junior Boxing
 

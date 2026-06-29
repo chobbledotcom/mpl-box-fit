@@ -1,5 +1,5 @@
 ---
-name: "*Reviewer name (boxfit regular)*"
+name: "Boxfit regular"
 rating: 5
 ---
 

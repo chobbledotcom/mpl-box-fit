@@ -5,14 +5,15 @@ subtitle: Build strength and power on the weights floor
 thumbnail: /images/functional-trainer-cable-machine.jpg
 meta_title: Strength & Conditioning at MPL Box Fit | Haslingden
 meta_description: >-
-  *Strength and conditioning at MPL Box Fit - functional trainer, free
+  Strength and conditioning at MPL Box Fit - functional trainer, free
   weights, kettlebells and power bags. For boxers and non-boxers in
-  Haslingden.*
+  Haslingden.
 blocks:
   - type: image-background
     image: /images/functional-trainer-cable-machine.jpg
     image_alt: Black functional trainer cable machine with slam balls and a bench at MPL Box Fit
     parallax: true
+    tint: true
     content: |
       # Strength & Conditioning
 

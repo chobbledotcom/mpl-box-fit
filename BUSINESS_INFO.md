@@ -49,7 +49,8 @@ black.
 ## Brand & Look
 
 - **Logo (observed):** "MPL BOXFIT" hexagonal crest with crossed gloves; red,
-  white and black. File: `images/mpl-boxfit-logo.jpg`.
+  white and black. File: `images/mpl-boxfit-logo.png` (black background removed
+  to transparency).
 - **Interior (observed):** Black painted brick walls, black rubber-tiled
   flooring, hexagonal LED ceiling lights, a full-length mirrored wall. Dark,
   modern, high-contrast.
@@ -96,8 +97,14 @@ Written in _italics_ on the site until provided:
 - Class schedule
 - Pricing / membership options
 - Coach qualifications
-- Contact details (phone, email, socials, domain)
+- Contact details (phone, email, domain)
 - Pay-as-you-go vs membership
+
+### Known socials (confirmed)
+
+- Facebook: <https://www.facebook.com/profile.php?id=61576716490057>
+- Instagram: [@mpl.boxfit](https://www.instagram.com/mpl.boxfit)
+- LinkedIn (Coach Umair): <https://www.linkedin.com/in/umair-khan-pm>
 
 ---
 

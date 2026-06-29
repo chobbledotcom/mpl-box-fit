@@ -12,6 +12,7 @@ blocks:
     image: /images/facebook-first-new-studio-session.jpg
     image_alt: A 1-to-1 boxing client with coach Umair at the new MPL Box Fit studio
     parallax: true
+    tint: true
     content: |
       # 1-to-1 Coaching
 
@@ -29,12 +30,13 @@ blocks:
       someone holding pads and picking apart the details.
 
       Private group training is available too, so two or three people can
-      train together while still getting coached properly. *Confirm session
-      length, current prices and available times when booking.*
+      train together while still getting coached properly. We run private
+      1-to-1 and group boxing sessions for both men and ladies — email us
+      and we will arrange a time that works for you.
   - type: contact-form
     intro_content: |
       ## Book a Session
     content: |
-      *Tell us what you want to work on and roughly when you are free, and we
-      will sort out a coach and a time.*
+      Tell us what you want to work on and roughly when you are free, and we
+      will sort out a coach and a time.
 ---
