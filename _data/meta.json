@@ -1,19 +1,19 @@
 {
 	"language": "en-GB",
 	"organization": {
-		"description": "*Boxing-fitness gym offering boxing and strength & conditioning training for adults and juniors.*",
-		"legalName": "*MPL Box Fit Ltd*",
-		"foundingDate": "*2020*",
+		"description": "Boxing-fitness studio inside Monkey Playland in Haslingden, offering boxing and strength & conditioning training for adults and juniors.",
+		"legalName": "*MPL Box Fit*",
+		"foundingDate": "2026",
 		"founders": [
 			{
-				"name": "*Owner name*"
+				"name": "Umair"
 			}
 		],
 		"address": {
-			"streetAddress": "*123 Example Street*",
-			"addressLocality": "*Town*",
-			"addressRegion": "*County*",
-			"postalCode": "*AB1 2CD*",
+			"streetAddress": "Inside Monkey Playland",
+			"addressLocality": "Haslingden",
+			"addressRegion": "Lancashire",
+			"postalCode": "*Postcode TBC*",
 			"addressCountry": "GB"
 		},
 		"contactPoint": [

@@ -3,10 +3,11 @@ title: Strength & Conditioning
 name: Strength & Conditioning
 subtitle: Build strength and power on the weights floor
 thumbnail: /images/functional-trainer-cable-machine.jpg
-meta_title: Strength & Conditioning at MPL Box Fit | *Town*
+meta_title: Strength & Conditioning at MPL Box Fit | Haslingden
 meta_description: >-
   *Strength and conditioning at MPL Box Fit - functional trainer, free
-  weights, kettlebells and power bags. For boxers and non-boxers. Town, UK.*
+  weights, kettlebells and power bags. For boxers and non-boxers in
+  Haslingden.*
 blocks:
   - type: image-background
     image: /images/functional-trainer-cable-machine.jpg
@@ -17,7 +18,7 @@ blocks:
 
       The conditioning side of the gym, built around a functional trainer,
       free weights and a good range of bags and kettlebells. It works
-      whether you box or not.
+      whether you box or just want to get stronger and fitter.
   - type: markdown
     content: |
       ## What You Can Train With
@@ -28,9 +29,9 @@ blocks:
       to put together a full strength and conditioning session, and to keep
       progressing as you get stronger.
 
-      *We can run this as a coached class or build you a programme to work
-      through on your own - tell us which you are after. Sessions run on
-      [days and times], and the cost is [price].*
+      We can run this as coached training or build it into your boxing
+      sessions, depending on what you are after. *Confirm current session
+      options, times and prices when booking.*
   - type: contact-form
     intro_content: |
       ## Train With Us
