@@ -1,0 +1,59 @@
+{
+	"fields": [
+		{
+			"name": "name",
+			"label": "Your Name",
+			"placeholder": "Your name",
+			"required": true
+		},
+		{
+			"name": "email",
+			"type": "email",
+			"label": "Your Email Address",
+			"placeholder": "Your email address",
+			"required": true
+		},
+		{
+			"name": "phone",
+			"type": "tel",
+			"label": "Your Phone Number",
+			"placeholder": "Your phone number",
+			"required": true
+		},
+		{
+			"name": "who_for",
+			"type": "radio",
+			"label": "Who is the training for?",
+			"options": ["Myself (adult)", "My child (junior)", "Both"]
+		},
+		{
+			"name": "experience",
+			"type": "radio",
+			"label": "How much boxing or training experience do you have?",
+			"options": ["Complete beginner", "Some experience", "Experienced"]
+		},
+		{
+			"name": "interest",
+			"label": "What are you interested in?",
+			"placeholder": "e.g. boxfit classes, junior boxing, 1-to-1 coaching"
+		},
+		{
+			"name": "item",
+			"label": "Class",
+			"showOn": "classes",
+			"defaultFromPageTitle": true
+		},
+		{
+			"name": "enquiry",
+			"type": "textarea",
+			"label": "Your Message",
+			"placeholder": "Tell us a bit about what you're after and we'll get back to you.",
+			"required": true,
+			"rows": 6
+		}
+	],
+	"itemTagLabels": {
+		"classes": "Class"
+	},
+	"submitButtonText": "Send Enquiry"
+}

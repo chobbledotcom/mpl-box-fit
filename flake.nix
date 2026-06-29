@@ -1,10 +1,8 @@
 {
-  inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-  };
+  inputs = { };
 
   outputs =
-    { nixpkgs, ... }:
+    { ... }:
     let
       forAllSystems = f: { x86_64-linux = f "x86_64-linux"; };
     in
@@ -12,16 +10,20 @@
       devShells = forAllSystems (
         system:
         let
-          pkgs = nixpkgs.legacyPackages.${system};
+          pkgs = import <nixpkgs> { inherit system; };
           bunScripts = pkgs.symlinkJoin {
             name = "bun-scripts";
-            paths = map (cmd: pkgs.writeShellScriptBin cmd "bun run ${cmd}") [
+            paths = map (cmd: pkgs.writeShellScriptBin cmd "bun run ${cmd} -- \"$@\"") [
               "serve"
               "build"
+              "prepare-dev"
+              "sync-files"
+              "watch"
+              "update-pages"
+              "update-scripts"
+              "fetch-google-reviews"
+              "clean"
               "test"
-              "profile"
-              "customise-cms"
-              "generate-pages-yml"
             ];
           };
         in
@@ -29,7 +31,6 @@
           default = pkgs.mkShell {
             packages = with pkgs; [
               bun
-              biome
               vips
               stdenv.cc.cc.lib
               bunScripts
@@ -37,24 +38,23 @@
 
             shellHook = ''
               export LD_LIBRARY_PATH="${pkgs.stdenv.cc.cc.lib}/lib:$LD_LIBRARY_PATH"
-              export PATH="$PWD/bin:$PATH"
-
-              # Run setup tasks in background
-              (bun install && git pull && echo "Environment ready <3") &
 
               cat <<EOF
 
               Available commands:
-               serve              - Clean & start dev server with incremental builds
-               build              - Clean & build the site in ./_site
-               test               - Run JavaScript tests
-               profile            - Profile build for performance bottlenecks
-               lint               - Format code with Biome (Nix-only)
-               screenshot         - Take website screenshots (Nix-only)
-               customise-cms      - Interactive setup for PagesCMS collections
-               generate-pages-yml - Generate .pages.yml with all collections
+               serve                - Start development server
+               build                - Build the project
+               prepare-dev          - Prepare development environment
+               sync-files           - Synchronize files
+               watch                - Watch for changes
+               update-pages         - Update pages
+               update-scripts       - Update chobble-client scripts
+               fetch-google-reviews - Fetch Google Maps reviews
+               clean                - Clean build directory
+               test                 - Run tests
 
               EOF
+              git pull
             '';
           };
         }

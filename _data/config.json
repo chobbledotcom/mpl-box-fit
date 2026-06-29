@@ -1,0 +1,9 @@
+{
+	"show_breadcrumbs": true,
+	"placeholder_images": false,
+	"formspark_id": "*your-formspark-id*",
+	"botpoison_public_key": "*your-botpoison-public-key*",
+	"currency": "GBP",
+	"collapse_mobile_menu": true,
+	"use_visual_editor": true
+}
