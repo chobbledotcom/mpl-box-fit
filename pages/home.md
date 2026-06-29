@@ -122,7 +122,7 @@ blocks:
       where parents, juniors, beginners and regulars could learn real boxing
       without needing to walk into a big fight gym.
 
-      The first posts from the build show the studio coming together in May
+      The studio started coming together in May
       2026, followed by 1-to-1 sessions and private group training through
       June. That is still the feel of the place: local, practical and built
       around people putting the work in.

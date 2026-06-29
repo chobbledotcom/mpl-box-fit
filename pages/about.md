@@ -41,9 +41,8 @@ blocks:
       part of the premises to create a dedicated boxing-fitness studio for
       Haslingden and Rossendale.
 
-      The early posts show the studio taking shape in May 2026, then the
-      first 1-to-1 sessions and a busy first week of personal training in
-      June. The aim was not to make a showpiece gym. It was to build a
+      The studio started taking shape in May 2026, then the
+      first 1-to-1 sessions started in  June. The aim was not to make a showpiece gym. It was to build a
       practical room where beginners could learn properly, juniors could be
       coached safely, and adults could use boxing to get fitter, stronger
       and more confident.
