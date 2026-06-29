@@ -163,3 +163,6 @@ src/assets/icons/iconify/test/
 # Chobble template checked out here in CI (file: dependency target)
 chobble-template/
 dataset_*
+
+# ---> Beeper chat export (contains private chat data)
+beeper-export/
