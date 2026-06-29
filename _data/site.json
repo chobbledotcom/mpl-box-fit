@@ -6,7 +6,7 @@
 	"description": "MPL Box Fit is a boxing-fitness studio inside Monkey Playland in Haslingden, offering boxing fundamentals, private coaching, junior boxing and strength & conditioning.",
 	"phone": null,
 	"phone_link": null,
-	"email": null,
+	"email": "info@mplboxfit.co.uk",
 	"location": "Inside Monkey Playland, Haslingden, Rossendale",
 	"socials": {
 		"Facebook": "https://www.facebook.com/profile.php?id=61576716490057",
@@ -21,8 +21,11 @@
 	"horizontal_nav": true,
 	"template_repo_url": "https://git.chobble.com/chobble/chobble-client",
 	"opening_times": [
-		{ "day": "*Monday – Friday*", "hours": "*6:00am – 9:00pm*" },
-		{ "day": "*Saturday*", "hours": "*8:00am – 4:00pm*" },
-		{ "day": "*Sunday*", "hours": "*Closed*" }
+		{ "day": "Monday", "hours": "Ladies 10–11am & 6–7pm" },
+		{ "day": "Tuesday", "hours": "Men 7–8pm" },
+		{ "day": "Wednesday", "hours": "Ladies 6–7pm" },
+		{ "day": "Thursday", "hours": "Men 7–8pm" },
+		{ "day": "Friday", "hours": "Ladies 10–11am" },
+		{ "day": "Saturday & Sunday", "hours": "Private 1-to-1 & group sessions by arrangement" }
 	]
 }

@@ -26,6 +26,7 @@ name: Footer Content
     <ul>
       <li>Inside Monkey Playland, Haslingden</li>
       <li>Serving Rossendale and Lancashire</li>
+      <li><a href="mailto:info@mplboxfit.co.uk">info@mplboxfit.co.uk</a></li>
       <li><a href="https://www.instagram.com/mpl.boxfit">Follow @mpl.boxfit</a></li>
       <li><a href="https://www.facebook.com/profile.php?id=61576716490057">Find us on Facebook</a></li>
       <li><a href="https://www.linkedin.com/in/umair-khan-pm">Coach Umair on LinkedIn</a></li>

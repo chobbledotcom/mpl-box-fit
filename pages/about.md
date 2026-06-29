@@ -41,11 +41,11 @@ blocks:
       part of the premises to create a dedicated boxing-fitness studio for
       Haslingden and Rossendale.
 
-      The studio started taking shape in May 2026, then the
-      first 1-to-1 sessions started in  June. The aim was not to make a showpiece gym. It was to build a
-      practical room where beginners could learn properly, juniors could be
-      coached safely, and adults could use boxing to get fitter, stronger
-      and more confident.
+      The studio started taking shape in May 2026, then the first 1-to-1
+      sessions started in June. The aim was not to make a showpiece gym. It
+      was to build a practical room where beginners could learn properly,
+      juniors could be coached safely, and adults could use boxing to get
+      fitter, stronger and more confident.
     figure_src: /images/facebook-first-week-personal-training.jpg
     figure_alt: Coach Umair on the MPL Box Fit training floor during the first week of personal training
     button:

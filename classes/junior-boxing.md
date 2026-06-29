@@ -29,8 +29,9 @@ blocks:
       technique as they go. It is structured and supervised, so the kids
       learn properly and burn off plenty of energy doing it.
 
-      They do not need boxing experience to start. *Confirm the current age
-      range, kit requirements, session times and prices when booking.*
+      They do not need boxing experience to start. Junior sessions run on
+      request, so message us with your child's age and we will arrange a time
+      and let you know what to bring.
   - type: contact-form
     intro_content: |
       ## Book Your Child In
