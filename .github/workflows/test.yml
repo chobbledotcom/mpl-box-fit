@@ -19,6 +19,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # The @chobble/js-toolkit devDependency is a file: link to
+      # ./chobble-template/packages/js-toolkit, so the template's toolkit
+      # package must be present before `bun install --frozen-lockfile` runs.
+      - name: Checkout Chobble Template
+        uses: actions/checkout@v4
+        with:
+          repository: chobble-mirror/chobble-template
+          ref: main
+          path: chobble-template
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            packages
+
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
