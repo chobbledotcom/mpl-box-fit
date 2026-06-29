@@ -12,7 +12,7 @@ eleventyNavigation:
   order: 1
 blocks:
   - type: image-background
-    image: /images/gym-corridor-wide.jpg
+    image: /images/gym-corridor-wide-new.jpg
     image_alt: Row of TUF-WEAR punch bags down the MPL Box Fit training floor under hexagonal lighting
     parallax: true
     tint: true

@@ -11,7 +11,7 @@ eleventyNavigation:
   order: 3
 blocks:
   - type: image-background
-    image: /images/facebook-hq-boxing-session.jpg
+    image: /images/facebook-hq-boxing-session-new.jpg
     image_alt: Three people on the MPL Box Fit training floor in Haslingden
     parallax: true
     tint: true
