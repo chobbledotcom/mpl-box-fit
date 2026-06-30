@@ -31,12 +31,12 @@ blocks:
       progressing as you get stronger.
 
       We can run this as coached training or build it into your boxing
-      sessions, depending on what you are after. *Confirm current session
-      options, times and prices when booking.*
+      sessions, depending on what you are after. Get in touch and we will sort
+      out the right setup, timings and pricing for you.
   - type: contact-form
     intro_content: |
       ## Train With Us
     content: |
-      *Let us know your goals and whether you want coaching or a programme
-      to follow, and we will sort something out.*
+      Let us know your goals and whether you want coaching or a programme
+      to follow, and we will sort something out.
 ---

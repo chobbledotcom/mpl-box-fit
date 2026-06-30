@@ -165,7 +165,7 @@ blocks:
     intro_content: |
       ## Come and Train
     content: |
-      *Fill in the form and we will get back to you about classes, junior
-      boxing, memberships or 1-to-1 coaching. It helps to know your
-      experience level and what you are hoping to get out of training.*
+      Fill in the form and we will get back to you about classes, junior
+      boxing or 1-to-1 coaching. It helps to know your experience level and
+      what you are hoping to get out of training.
 ---

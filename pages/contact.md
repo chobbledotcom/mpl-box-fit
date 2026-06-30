@@ -35,11 +35,12 @@ blocks:
         description: >-
           Ladies: Mon & Fri 10–11am and Mon & Wed 6–7pm. Men: Tue & Thu
           7–8pm. £10 a session.
-      - icon: "mdi:message-text"
-        name: Message Us
+      - icon: "mdi:email"
+        name: Email Us
         description: >-
-          Send us a message on Facebook or Instagram, or fill in the form
-          below and we will get back to you.
+          Email [info@mplboxfit.co.uk](mailto:info@mplboxfit.co.uk), message
+          us on Facebook or Instagram, or fill in the form below and we will
+          get back to you.
 
   - type: contact-form
     intro_content: |

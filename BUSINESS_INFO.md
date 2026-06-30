@@ -7,8 +7,9 @@ layout: null
 
 A working summary of what's known about the business. **Observed** items are
 visible in the gym photos in `images/`; **Inferred** items are reasonable
-deductions; **Unknown** items need confirming and are written in _italics_
-throughout the site so they're easy to find and replace.
+deductions; **Unknown** items still need confirming from the owner. No italic
+placeholders remain live on the site — see `pages/todo.md` for the running
+checklist of outstanding facts.
 
 ## Overview
 
@@ -87,18 +88,22 @@ black.
 TUF-WEAR · MIRAFIT · Pro-Box · Wolverson — all UK suppliers, which (with the
 styling) suggests a **UK-based** business.
 
-## Unknown — needs confirming from owner
+## Confirmed since first draft
 
-Written in _italics_ on the site until provided:
+- **Domain:** <https://www.mplboxfit.co.uk> is registered and live.
+- **Email:** `info@mplboxfit.co.uk` (forwards to the owner's inbox).
+- **Class schedule:** ladies Mon & Fri 10–11am and Mon & Wed 6–7pm; men
+  Tue & Thu 7–8pm; private 1-to-1 and group sessions by arrangement.
+- **Pricing:** keep-fit classes £10 per session, pay as you go.
 
-- Full / legal trading name and founding year
-- Opening hours
-- Exact address within Monkey Playland
-- Class schedule
-- Pricing / membership options
+## Unknown — still needs confirming from owner
+
+- Public phone number (currently none shown)
+- Exact unit / postcode within Monkey Playland
+- Block / membership pricing (beyond £10 pay-as-you-go)
+- Fixed junior-boxing schedule (currently "on request")
 - Coach qualifications
-- Contact details (phone, email, domain)
-- Pay-as-you-go vs membership
+- Genuine reviews to replace the placeholders in `reviews/`
 
 ### Known socials (confirmed)
 

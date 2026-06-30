@@ -18,6 +18,7 @@
 		"contactPoint": [
 			{
 				"contactType": "customer service",
+				"email": "info@mplboxfit.co.uk",
 				"url": "https://www.mplboxfit.co.uk/contact/",
 				"areaServed": "GB",
 				"availableLanguage": ["English"]
