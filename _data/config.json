@@ -5,5 +5,6 @@
 	"botpoison_public_key": "pk_bbb182a9-1ff3-4d9a-839c-06e45f41a6e6",
 	"currency": "GBP",
 	"collapse_mobile_menu": true,
-	"use_visual_editor": true
+	"use_visual_editor": true,
+	"homepage_footer_markdown": "Site by [chobble.com](https://chobble.com)"
 }
