@@ -101,6 +101,10 @@ blocks:
         name: Boxfit Classes
         description: "High-energy bag and pad work to get you fit."
         link: /classes/boxfit/
+      - image: /images/tuf-wear-bags-and-water.jpg
+        name: Women's Boxing
+        description: "Group boxing sessions for women with coach Sayeeda, Thursdays and Sundays."
+        link: /classes/womens-boxing/
       - image: /images/functional-trainer-cable-machine.jpg
         name: Strength & Conditioning
         description: "Building strength and power on the functional trainer and free weights."

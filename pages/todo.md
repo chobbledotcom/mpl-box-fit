@@ -43,6 +43,14 @@ blocks:
       - **Junior boxing** — currently described as "on request"; if coached
         junior sessions become a fixed class, confirm days, times, age range
         and kit (`classes/junior-boxing.md`).
+      - **Women's boxing photos** — no photos of the women's boxing sessions
+        yet; `classes/womens-boxing.md` is using a generic gym shot
+        (`tuf-wear-bags-and-water.jpg`) until we get some from Sayeeda
+        (@sayeeda.boxing on Instagram).
+      - **Women's boxing pricing** — the class runs Thu & Sun 4–5pm but the
+        price is not confirmed; check whether it is the standard £10
+        pay-as-you-go or something different, then add it to
+        `classes/womens-boxing.md`.
 
       ### Business details
 

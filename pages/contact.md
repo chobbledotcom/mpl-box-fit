@@ -34,7 +34,8 @@ blocks:
         name: Class Times
         description: >-
           Ladies: Mon & Fri 10–11am and Mon & Wed 6–7pm. Men: Tue & Thu
-          7–8pm. £10 a session.
+          7–8pm. Women's boxing: Thu & Sun 4–5pm. Keep-fit classes are
+          £10 a session.
       - icon: "mdi:email"
         name: Email Us
         description: >-
