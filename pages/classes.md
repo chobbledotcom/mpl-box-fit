@@ -18,8 +18,9 @@ blocks:
     content: |
       # Classes & Training
 
-      We run sessions for adults and juniors, from boxfit classes and junior
-      boxing through to strength and conditioning and one-to-one coaching.
+      We run sessions for adults and juniors, from boxfit classes, women's
+      boxing and junior boxing through to strength and conditioning and
+      one-to-one coaching.
       Whatever level you are at, there is a session that will suit you:
       complete beginners, private groups, juniors, parents training with
       children and people who want sharper boxing fundamentals.
@@ -59,8 +60,10 @@ blocks:
           - **Ladies, mornings:** Monday & Friday, 10–11am
           - **Ladies, evenings:** Monday & Wednesday, 6–7pm
           - **Men:** Tuesday & Thursday, 7–8pm
+          - **Women's boxing:** Thursday & Sunday, 4–5pm
 
-          The ladies' classes are ladies only. Private 1-to-1 and small-group
+          The ladies' classes are ladies only, and the women's boxing
+          sessions are women only. Private 1-to-1 and small-group
           boxing sessions are available for both men and ladies — email us to
           arrange one.
 

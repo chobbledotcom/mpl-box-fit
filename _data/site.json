@@ -24,8 +24,9 @@
 		{ "day": "Monday", "hours": "Ladies 10–11am & 6–7pm" },
 		{ "day": "Tuesday", "hours": "Men 7–8pm" },
 		{ "day": "Wednesday", "hours": "Ladies 6–7pm" },
-		{ "day": "Thursday", "hours": "Men 7–8pm" },
+		{ "day": "Thursday", "hours": "Women's boxing 4–5pm; Men 7–8pm" },
 		{ "day": "Friday", "hours": "Ladies 10–11am" },
-		{ "day": "Saturday & Sunday", "hours": "Private 1-to-1 & group sessions by arrangement" }
+		{ "day": "Saturday", "hours": "Private 1-to-1 & group sessions by arrangement" },
+		{ "day": "Sunday", "hours": "Women's boxing 4–5pm; private sessions by arrangement" }
 	]
 }

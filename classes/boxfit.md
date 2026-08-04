@@ -43,7 +43,9 @@ blocks:
       - **Ladies, evenings:** Monday & Wednesday, 6–7pm
       - **Men:** Tuesday & Thursday, 7–8pm
 
-      The ladies' classes are ladies only. Prefer something more personal?
+      The ladies' classes are ladies only. If you are after proper boxing
+      rather than boxfit, there are also women's boxing group sessions on
+      Thursdays and Sundays, 4–5pm. Prefer something more personal?
       Private 1-to-1 and small-group boxing sessions are available for both
       men and ladies — email us to arrange one.
   - type: contact-form

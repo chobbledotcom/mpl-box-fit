@@ -93,7 +93,10 @@ styling) suggests a **UK-based** business.
 - **Domain:** <https://www.mplboxfit.co.uk> is registered and live.
 - **Email:** `info@mplboxfit.co.uk` (forwards to the owner's inbox).
 - **Class schedule:** ladies Mon & Fri 10–11am and Mon & Wed 6–7pm; men
-  Tue & Thu 7–8pm; private 1-to-1 and group sessions by arrangement.
+  Tue & Thu 7–8pm; women's boxing Thu & Sun 4–5pm; private 1-to-1 and group
+  sessions by arrangement.
+- **Women's boxing coach:** Sayeeda —
+  [@sayeeda.boxing](https://www.instagram.com/sayeeda.boxing) on Instagram.
 - **Pricing:** keep-fit classes £10 per session, pay as you go.
 
 ## Unknown — still needs confirming from owner
